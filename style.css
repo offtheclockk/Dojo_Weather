@@ -1,0 +1,158 @@
+/* Overall */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+    font-family: cursive;
+}
+
+h2{
+    font-family: cursive;
+}
+
+p{
+    font-family: cursive;
+}
+
+/* Header */
+
+.header{
+    background-color: #9fc5f8;
+    height: 50px;
+    color: white;
+    font-family: cursive;
+}
+
+.dojo-weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.burbank{
+    margin-left: 250px;
+}
+
+/* Top Bar */
+.top-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 50px;
+    height: 80px;
+    width: 900px;
+    border-bottom: black solid;
+}
+
+/* Forecast */
+.forecast{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.today{
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    ;
+}
+
+.tomorrow{
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    ;
+}
+
+.friday{
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    ;
+}
+
+.saturday{
+    display: flex;
+    justify-content: space-evenly;
+    height: 375px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eeeeee;
+    ;
+}
+
+.icon{
+    height: 100px;
+    width: 100px;
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.temp{
+    color: red;
+    margin-right: 30px;
+}
+
+.cold{
+    color: #2b78e4;
+}
+
+.degrees{
+    display: flex;
+    margin: 10p;
+}
+
+/* Cookie Policy */
+
+.footer{
+    margin-left: 100px;
+    margin-right: 100px;
+    position: fixed;
+    width: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: black solid;
+}
+
+.cookie{
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+}
+
+.stop{
+    font-weight: bolder;
+    font-size: 20pt;
+}
+
+.accept{
+    margin-right: 40px;
+    width: 140px;
+    height: 30px;
+    background-color: #9fc5f8;
+    box-shadow: 1px 1px;
+}
